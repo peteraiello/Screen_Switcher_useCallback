@@ -13,7 +13,7 @@ export const screenThree = "Screen three";
 export const screenFour = "Screen four";
 
 /* Create a type for screen state using union types (can either be 'Screen one', 'Screen two', 'Screen... etc' or an empty string) */
-export type screenState = "" | typeof screenOne | typeof screenTwo | typeof screenThree | typeof screenFour;
+export type screenState = typeof initialState | typeof screenOne | typeof screenTwo | typeof screenThree | typeof screenFour;
 
 /* Create an array containing screen strings used to loop through for Screen and Button components */
 const screens = [screenOne, screenTwo, screenThree, screenFour];
