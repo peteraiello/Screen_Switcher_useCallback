@@ -1,8 +1,9 @@
 import React from "react";
+import {screenState} from "./App";
 
 interface ButtonProps {
-    buttonClicked: (screenId: string) => void,
-    text: string,
+    buttonClicked: (screenId: screenState) => void,
+    text: screenState,
     isActive: boolean
 }
 

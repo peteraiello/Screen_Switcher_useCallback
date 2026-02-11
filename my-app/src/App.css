@@ -11,3 +11,11 @@
   background-color: black;
 }
  
+.button-wrapper,
+.screen-wrapper {
+  display: flex;
+}
+
+button.button.button-active {
+  background-color: lightgray;
+}
