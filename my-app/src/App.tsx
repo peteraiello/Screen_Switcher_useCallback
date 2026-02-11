@@ -1,4 +1,4 @@
-import React, {useState, useCallback, act} from 'react';
+import React, {useState, useCallback} from 'react';
 import { Button } from './Button';
 import { Screen } from './Screen';
 import "./App.css";

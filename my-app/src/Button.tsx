@@ -1,4 +1,4 @@
-import React, {memo} from "react";
+import React from "react";
 
 interface ButtonProps {
     buttonClicked: (screenId: string) => void,
