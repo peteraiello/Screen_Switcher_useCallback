@@ -27,3 +27,5 @@ Button two rerenders, button three rerenders, screen two rerenders, screen three
 - useCallback should be used to avoid unnecessary rerenders for functions passed from the parent to the child components (component rerendering should only be triggered when something has changed).
 - Inline arrow functions break memoization (React thinks it's a new reference). Instead of implementing your function like this `buttonClicked={() => handleButtonClick(screenOne)}` pass a stable function, i.e, `buttonClicked={handleButtonClick}`
 
+# URL
+https://screen-switcher-use-callback.vercel.app
